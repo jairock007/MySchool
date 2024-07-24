@@ -1,0 +1,58 @@
+.quick-links {
+    padding: 20px;
+  }
+  
+  .quick-links h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .quick-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .quick-link-item {
+    margin: 10px 0;
+    transition: transform 0.3s, color 0.3s, background-color 0.3s;
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .quick-link-item i {
+    margin-right: 10px;
+    color: #555; /* Icon color */
+  }
+  
+  .quick-link-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    width: 100%;
+  }
+  
+  .quick-link-item:hover {
+    color: #000;
+    background-color: #f0f0f0; /* Background color on hover */
+    transform: scale(1.05);
+  }
+  
+  .quick-link-item a:hover {
+    color: #007BFF; /* Link color on hover */
+  }
+  
+  /* Optional: Add animations when items appear */
+  .quick-link-item {
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
